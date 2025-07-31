@@ -1,0 +1,63 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'comic sans', sans-serif;
+	background-color: rgb(56, 0, 88);
+	color: #ffffff;
+}
+
+header{
+	text-align: center;
+	background-color:rgb(15, 95, 117);
+	color: #ffffff;
+	padding: 2rem;
+	border-radius: 10px;
+	margin-bottom: 2rem;
+}
+
+header h1{
+	font-size: 2rem
+}
+
+.tagline{
+	font-style: italic;
+	font-size: 1.2rem;
+	margin-top: 0.5rem;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	list-style:none;
+	margin:1rem 0 2rem 0;
+	gap: 1.5rem;
+	flex-wrap: wrap
+}
+
+nav a{
+	text-decoration: none;
+	color:rgb(255, 255, 255);
+	font-weight: bold;
+	transition: color 0.3 ease;
+}
+nav a:hover{
+	color:#ff00ff
+
+}
+
+main{
+	max-width:900px;
+	margin: auto;
+}
+
+.container{
+	max-width:900px;
+	margin:auto;
+	padding:1rem;
+}
+
+img{
+    width: 6%;
+}
